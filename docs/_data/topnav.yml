@@ -1,0 +1,17 @@
+##Topnav single links (do not drop down with sub-menus)
+topnav:
+- title: Topnav
+  items:
+
+#Topnav dropdowns
+#topnav_dropdowns:
+#- title: Topnav dropdowns
+#  folders:
+#    - title: Placeholder Dropdown 1
+#      folderitems:
+#
+#        - title: Sub-menu 1
+#          url: /sub_menu_1.html
+#
+#        - title: Sub-menu 2
+#          url: /sub_menu_2.html

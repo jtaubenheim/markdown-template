@@ -6,3 +6,15 @@ _pdf
 .idea
 vendor/
 .bundle/
+licenses
+js
+misc
+tags
+css
+_data
+_layouts
+_includes
+fonts
+_config.yml
+search.json
+tooltips.json

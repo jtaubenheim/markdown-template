@@ -40,11 +40,11 @@ _You **can** combine them_
 
 ## Images
 
-![This is an alt text.](/image/sample.webp "This is a sample image.")
+![This is an alt text.](/images/sample.png "This is a sample image.")
 
 ## Links
 
-You may be using [Markdown Live Preview](https://markdownlivepreview.com/).
+This is inline hyperlink text to [the Anheuser-Busch Wikipedia](https://en.wikipedia.org/wiki/Anheuser-Busch).
 
 ## Blockquotes
 

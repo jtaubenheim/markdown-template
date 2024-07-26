@@ -3,11 +3,11 @@ Hosts markdown document templates and an associated GitHub Pages site for conten
 
 ## editing files
 
-In the `docs` directory, navigate to the `content` sub-folder. It contains multiple files with different markdown examples that can be edited with your own content. Use the preview tab in the editor to view your edited markdown. 
+[This is the only file you need to worry about](https://github.com/jtaubenheim/markdown-template/blob/main/docs/index.md) when viewing the `docs` directory. This is the `index.md` file and contains all the basic markdown language and formatting. You can edit it and play with what is there however you like. 
 
 I've included a live site that will update when changes are commited so that you can also view how your edited markdown will display in final production (you can even use this site to host your final documentation products if you want, I would just give you your own URL like `https://github.com/anheuser-busch/documentation.com` or something to that effect. 
 
-**WARNING** This is a public repository (it has to be for personal accounts in order to deploy a site). If you add proprietary information make sure it you mark the `published:` frontmatter value to `false` or move that file into the `_drafts` folder to exclude it from the build. You can still preview the page by typing in the permalink in the URL bar (e.g., `https://github.com/jtaubenheim/markdown-template/main/somefile.html`). No one else will be able to access that file unless they have explicit knowledge of the permalink (plus no one is going to be looking at this repository besides you anyway, just keep in mind that theorectically this site can be accessed by third parties). 
+**WARNING** This is a public repository (it has to be for personal accounts in order to deploy a site). If you add proprietary information you should make a copy of the `index.md` file, rename it to something else (make sure you change the `permalink:` address along with the file name) mark the `published:` frontmatter value to `false` or move that file into the `_drafts` folder to exclude it from the build. No one else will be able to access that file unless they have explicit knowledge of the permalink (plus no one is going to be looking at this repository besides you anyway, just keep in mind that theorectically this site can be accessed by third parties). 
 
 ### note
 
@@ -19,9 +19,9 @@ If you feel confident in using the command line rather than the GitHub GUI you c
 
 `git clone https://github.com/jtaubenheim/markdown-template.git`
 
-`cd markdown-template/docs/content`
+`cd markdown-template/docs`
 
-`nano <file name>`
+`nano index.md`
 
 Nano is my prefferred text editor for CLI editing (you may have to install it locally to use it `sudo apt-get nano`). However there are plenty of alternatives like Vim (vim is harder to learn). 
 
